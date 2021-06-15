@@ -1,0 +1,26 @@
+学生管理系统：
+    1. 技术栈
+        前端：html,css,js,bootStrap，jsp。
+        后端：spring,mybatis,springMvc
+
+    2. 功能：
+        1. 对用户的增删改查
+
+    3. 数据库：
+        mysql
+            数据：学生表
+
+            CREATE TABLE student(
+            	id INT PRIMARY KEY,
+            	NAME VARCHAR(20) NOT NULL COMMENT '姓名',
+            	number VARCHAR(20) NOT NULL UNIQUE COMMENT '学号',
+            	gender VARCHAR(5) NOT NULL COMMENT '性别',
+            	phone VARCHAR(20) NOT NULL COMMENT '电话'
+            )
+
+            后来对id进行自增属性。
+
+    4. 页面：
+        1. 主页（显示用户数据） 查询 的结果可以在同一个页面
+        2. 添加，修改，需要其他的页面。
+

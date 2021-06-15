@@ -1,0 +1,5 @@
+com\myProject\service\StudentService.class
+com\myProject\mapper\StudentMapper.class
+com\myProject\pojo\Student.class
+com\myProject\controller\StudentController.class
+com\myProject\service\impl\StudentServiceImpl.class
